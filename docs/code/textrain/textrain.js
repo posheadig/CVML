@@ -9,7 +9,7 @@ function setup() {
   // set up video
   capture = createCapture(VIDEO);
   capture.hide();
-  //canvas.parent("sketch"); 
+  canvas.parent("sketch"); 
   // frameRate(60);
   // pixelDensity(1);
   createCanvas(w, h);
